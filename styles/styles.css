@@ -28,6 +28,13 @@
     border-radius: 4px;
     font-weight: 600;
 }
+.btn:hover{
+  background-color: #0b3a1f;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  color: rgb(255, 235, 220);
+}
 a{
     text-decoration: none;
     color: rgb(23, 24, 23);
@@ -37,4 +44,65 @@ a{
 li{
     list-style: none;
     
+}
+.early-access{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 0px 20px;
+    border-radius: 35px;
+    background-color: #f7fffb;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 10px;
+    background-image: url(/assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.early-text{
+    line-height: 0;
+    color: #0b3a1f;
+    font-weight: 400;
+}
+.hero-heading{
+    color: #fff;
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 600;
+}
+.hero-heading-greeen{
+    color: #469165;
+}
+.sub-heading{
+    text-align: center;
+    margin-top: -30px;
+    color: rgb(214, 214, 214);
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.cta-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+.hero-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.cta-btn2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    border: white solid 2px;
 }
