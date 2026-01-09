@@ -9,6 +9,13 @@
     gap: 20px;
     align-items: center;
 }
+.featured-menu li :hover{
+    color: #464343;
+    background-color: #d8fce6;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 0 6px 15px rgba(253, 123, 123, 0.1);
+}
 .nav-menu{
     display: flex;
     align-items: center;
@@ -56,16 +63,14 @@ li{
     border-radius: 35px;
     background-color: #f7fffb;
 }
-.early-access:hover{
-    background-color: #ffeacf;
-}
+
 .hero-section{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 120px 10px;
-    background-image: url(../assets/hero-bg.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -198,7 +203,7 @@ li{
     align-items: center;
 }
 .ready-div{
-    background-color: #f7f6f2;
+    background-color: #fbfbfb;
     padding: 80px 10px;
     margin-bottom: 80px;
     max-width: 1140px;
