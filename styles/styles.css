@@ -237,3 +237,31 @@ li{
     color: #627382;
     font-size: 14px;
 }
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px 10px;
+    border-bottom: 1px solid #469165;
+}
+footer{
+    background-color: #001931;
+}
+.social-icon{
+    display: flex;
+    gap: 15px;
+}
+.social{
+    color: #eeeeee;
+    font-weight: 500;
+}
+.copyright-text{
+    color: #f7f6f2;
+    text-align: center;
+    font-size: 12px;
+}
+.copyright{
+    padding: 10px;
+}
